@@ -67,3 +67,17 @@
 .col {
     margin-top: 2rem;
 }
+
+.footer {
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.link-politicas {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
