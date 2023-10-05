@@ -56,12 +56,16 @@
     background: #1d4633;
 }
 
-.card-title {
-    font-family: 'Oswald', sans-serif;
-}
-
-.card-text {
-    font-family: 'Raleway', sans-serif;
+.card {
+    margin: 0 auto;
+    width: 18rem;
+    .card-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4rem;
+    }
+    .card-text {
+        font-family: 'Raleway', sans-serif;
+    }
 }
 
 .col {
@@ -73,6 +77,7 @@
     color: white;
     text-align: center;
     padding: 2rem;
+    margin-top: 2.5rem;
 }
 
 .link-politicas {
