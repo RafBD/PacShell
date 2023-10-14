@@ -3,24 +3,22 @@
 
 a {
     text-decoration: none;
-    color:  white;
-}
-
-.inicio{
-    background-image: url("../img/bg-reloj.webp");
-    background-position: center;
-    background-size: cover;
-    height:100vh;  
+    color: white;
 }
 
 .inicio-dama {
-    background-image: url("../img/relojes-dama/fondo-dama.webp");
+    background-image: url("../img/relojes-dama/bg-mujer.webp");
+}
+
+.inicio-caballero {
+    background-image: url(../img/relojes-caballero/bg-hombre.webp);
 }
 
 .name-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
+
 .navbar {
     background: linear-gradient(90deg, #0b3e27, #197149);
     padding: .3rem;
@@ -56,27 +54,20 @@ a {
     background: #1d4633;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-}
-
 .card {
-    margin: 0 auto;
     width: 18rem;
+
     .card-title {
         font-family: 'Oswald', sans-serif;
         font-size: 1.4rem;
     }
+    
     .card-text {
         font-family: 'Raleway', sans-serif;
     }
 }
 
-.col {
-    margin-top: 2rem;
-}
+
 
 .footer {
     display: grid;
@@ -122,21 +113,15 @@ a {
 .division-container {
     margin-bottom: 2rem;
     background-color: #197149;
-    
+
 }
 
 .division-div {
-    padding: 1rem;
+    padding: .5rem;
     color: white;
     font-size: 1.2rem;
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
-}
-
-@media (width < 728px) {
-    .row {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 
@@ -155,5 +140,5 @@ a {
     }
 
 
-    
+
 }
