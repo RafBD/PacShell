@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -11,14 +15,18 @@ a {
     width: 35px;
 }
 
-.inicio-caballero, .inicio-dama {
+.inicio-caballero, .inicio-dama, .inicio-temporada {
     background-position: center center;
     background-size: cover;
     height: 100vh;
 }
 
 .inicio-dama {
-    background-image: url("../img/relojes-caballero/bg-hombre.webp");
+    background-image: url("../img/relojes-dama/bg-mujer.webp");
+}
+
+.inicio-temporada {
+    background-image: url("../img/relojes-por-temporada/fondo-otono-temporada.webp");
 }
 
 .inicio-caballero {
@@ -71,7 +79,10 @@ main {
 }
 
 .card-1-home, .card-4-home {
-    min-height: 400px; 
+    color: #197149;
+}
+.card-1-home, .card-4-home {
+    min-height: 350px; 
     background-position: center center;
     background-size: cover;
     background-image: url(../img/reloj-inicio-hombre-oficina.webp);
@@ -100,7 +111,6 @@ main {
 .bg-green {
     background: #197149;
 }
-
 
 .footer {
     background: linear-gradient(90deg, #0b3e27, #197149);
