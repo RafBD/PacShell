@@ -35,7 +35,7 @@
               <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">+ Vendidos</a>
+              <a class="nav-link active text-light" aria-current="page" href="masvendidos.html">+ Vendidos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#catalogo">Catálogo</a>
@@ -51,7 +51,7 @@
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Unisex</a></li>
+                <li><a class="dropdown-item" href="relojes-temporada.html">Por Temporada</a></li>
               </ul>
             </li>
           </ul>
@@ -65,18 +65,18 @@
     <!-- Carousel -->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="4000">
           <img src="img/bg-reloj.webp" class="d-block w-100" alt="Imagen inicial Aurum">
         </div>
-        <div class="carousel-item" data-bs-interval="100000">
+        <div class="carousel-item" data-bs-interval="4000">
           <a href="relojes-caballero.html">
             <img src="img/relojes-caballero/bg-hombre.webp" class="d-block w-100"
               alt="Imagen que lleva a la seccion de Aurum-Caballeros">
           </a>
         </div>
-        <div class="carousel-item" data-bs-interval="10000">
+        <div class="carousel-item" data-bs-interval="4000">
           <a href="relojes-dama.html">
-            <img src=".." class="d-block w-100" alt="Imagen que lleva a la seccion de Aurum-Damas">
+            <img src="./img/relojes-dama/bg-mujer.webp" class="d-block w-100" alt="Imagen que lleva a la seccion de Aurum-Damas">
           </a>
         </div>
       </div>
@@ -92,10 +92,10 @@
       </button>
     </div>
   </header>
-
-  <main class="mt-4">
+  <div id="catalogo"></div>
+  <main class="mt-4" >
     <section class="pt-12">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
             <!-- Preheading -->
@@ -111,12 +111,13 @@
 
           </div>
         </div>
+        <!-- CARDS -->
         <div class="row">
           <!-- Card 1 -->
-          <div class="col-12 col-md-5 col-lg-4 d-flex flex-column align-items-center">
+          <div class="col col-12 col-md-5 col-lg-4 d-flex flex-column align-items-center">
 
             <!-- Card -->
-            <div class="card mb-7 text-white card-1-home">
+            <div class="card mb-7 card-1-home mb-2">
 
               <!-- Background -->
               <div class="card-bg">
@@ -140,18 +141,13 @@
 
           </div>
           <!-- Card 2 -->
-          <div class="col-12 col-md-7 col-lg-8 d-flex flex-column">
+          <div class="col col-12 col-md-7 col-lg-8 d-flex flex-column">
 
             <!-- Card -->
-            <div class="card mb-7 text-body card-2-home">
-
-              <!-- Background -->
-              <div class="card-bg">
-                <div class="card-bg-img bg-cover"></div>
-              </div>
+            <div class="card mb-7 text-body card-2-home mb-2 mt-2">
 
               <!-- Body -->
-              <div class="card-body my-auto px-md-10 text-center text-md-start">
+              <div class="card-body my-auto text-white px-md-10 text-center text-md-start">
 
                 <!-- Circle -->
                 <div class="card-circle card-circle-lg card-circle-end">
@@ -173,13 +169,13 @@
 
           </div>
           <!-- Card 3 -->
-          <div class="col-12 col-md-7 col-lg-8 d-flex flex-column">
+          <div class="col col-12 col-md-7 col-lg-8 d-flex flex-column">
 
             <!-- Card -->
             <div class="card mb-7 mb-md-0 text-body card-3-home">
 
               <!-- Body -->
-              <div class="card-body my-auto px-md-10 text-center text-md-start">
+              <div class="card-body my-auto text-white px-md-10 text-center text-md-start">
 
                 <!-- Heading -->
                 <h4 class="mb-0">Relojes Basicos</h4>
@@ -195,10 +191,10 @@
 
           </div>
           <!-- Card 4 -->
-          <div class="col-12 col-md-5 col-lg-4 d-flex flex-column align-items-center">
+          <div class="col col-12 col-md-5 col-lg-4 d-flex flex-column align-items-center">
 
             <!-- Card -->
-            <div class="card text-white card-4-home">
+            <div class="card card-4-home">
               <!-- Body -->
               <div class="card-body my-auto text-center">
 
@@ -206,7 +202,7 @@
                 <h4 class="mb-0">Relojes por temporada</h4>
 
                 <!-- Link -->
-                <a class="btn btn-link stretched-link text-reset" href="#">
+                <a class="btn btn-link stretched-link text-reset" href="relojes-temporada.html">
                   Comprar ahora <i class="fe fe-arrow-right ms-2"></i>
                 </a>
 
@@ -219,9 +215,8 @@
       </div>
     </section>
   </main>
-
   <!-- FOOTER -->
-  <footer class="footer p-5 mt-5">
+  <footer class="footer p-5 mt-5 text-center">
     <div class="py-12 border-bottom border-gray-700 mb-4">
       <div class="container">
         <div class="row justify-content-center">
@@ -288,7 +283,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm mb-4">
+          <div class="col-sm mb-4">
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">
               Soporte al Cliente
@@ -308,7 +303,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">
@@ -329,7 +324,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">Acerca de AURUM</h6>
@@ -348,7 +343,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">

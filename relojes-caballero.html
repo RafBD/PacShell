@@ -16,7 +16,9 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-light name-logo" href="index.html">Aurum</a>
+        <a class="navbar-brand text-light name-logo" href="index.html">
+          <img src="./img/logo.png" alt="Logo AURUM" class="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,7 +29,7 @@
               <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">+ Vendidos</a>
+              <a class="nav-link active text-light" aria-current="page" href="masvendidos.html">+ Vendidos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#catalogo">Catálogo</a>
@@ -38,12 +40,12 @@
                 Categorías
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Caballero</a></li>
+                <li><a class="dropdown-item" href="relojes-caballero.html">Caballero</a></li>
                 <li><a class="dropdown-item" href="relojes-dama.html">Dama</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Unisex</a></li>
+                <li><a class="dropdown-item" href="relojes-temporada.html">Por Temporada</a></li>
               </ul>
             </li>
           </ul>
@@ -54,9 +56,8 @@
         </div>
       </div>
     </nav>
-    <!--/navbar-->
   </header>
-
+  <div id="catalogo"></div>
   <!-- Main -->
   <main class="container-fluid mt-4">
     <!-- Card 1 - Card 4 -->
@@ -156,27 +157,12 @@
     <section class="division-container" data-aos="fade-right">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="division-div">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quidem corporis eum
                 aliquam voluptatem asperiores voluptate, in aut, architecto repellendus obcaecati.
-                Laboriosam laudantium, iusto quisquam veniam amet odit fuga ad. Consequatur voluptatibus
-                voluptates nobis! Dolore cumque magni ad, suscipit animi recusandae at adipisci eius
-                nostrum sed dolorum cum repellendus facere iste doloremque officia vero sit deleniti alias
-                temporibus voluptatibus cupiditate?
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="division-div">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quidem corporis eum
-                aliquam voluptatem asperiores voluptate, in aut, architecto repellendus obcaecati.
-                Laboriosam laudantium, iusto quisquam veniam amet odit fuga ad. Consequatur voluptatibus
-                voluptates nobis! Dolore cumque magni ad, suscipit animi recusandae at adipisci eius
-                nostrum sed dolorum cum repellendus facere iste doloremque officia vero sit deleniti alias
-                temporibus voluptatibus cupiditate?
+                Laboriosam laudantium, iusto quisquam veniam amet odit fuga ad.
               </p>
             </div>
           </div>
@@ -278,7 +264,7 @@
     </section>
   </main>
 
-  <footer class="footer p-5 mt-5">
+  <footer class="footer p-5 mt-5 text-center">
     <div class="py-12 border-bottom border-gray-700 mb-4">
       <div class="container">
         <div class="row justify-content-center">
@@ -345,7 +331,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm mb-4">
+          <div class="col-sm mb-4">
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">
               Soporte al Cliente
@@ -365,7 +351,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">
@@ -386,7 +372,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">Acerca de AURUM</h6>
@@ -405,7 +391,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-sm">
+          <div class="col-sm">
 
             <!-- Heading -->
             <h6 class="heading-xxs mb-4 text-white">
@@ -433,13 +419,8 @@
 
             <!-- Copyright -->
             <p class="mb-3 mb-md-0 copyright">
-              2023 Aurum | Todos los Derechos Reservados D.R. <svg width="16" height="16" viewBox="0 0 24 24"
-                stroke-width="1.75" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                <path d="M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4">
-                  <path>
-              </svg>
+              2023 Aurum | Todos los Derechos Reservados D.R. <svg width="16" height="16" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path><path d="M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4"><path>
+            </svg>
             </p>
 
           </div>
