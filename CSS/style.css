@@ -11,6 +11,10 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 .logo {
     width: 35px;
 }
@@ -161,6 +165,22 @@ main {
     font-family: 'Oswald', sans-serif;
 }
 
+.btn-verde {
+    transition: all .3s ease-in-out;
+}
+
 .main-politicas {
     margin-top: 5.5rem !important;
+}
+
+.brownie {
+    color: #43322b;
+}
+
+.silver {
+    color: #47403a;
+}
+
+.citrus {
+    color: #d28e5f;
 }
