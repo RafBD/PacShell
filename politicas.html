@@ -23,48 +23,67 @@
     <!-- Header -->
     <header>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light name-logo" href="index.html">
-                    <img src="./img/logo.png" alt="Logo AURUM" class="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="masvendidos.html">+
-                                Vendidos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#catalogo">Catálogo</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Categorías
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="relojes-caballero.html">Caballero</a></li>
-                                <li><a class="dropdown-item" href="relojes-dama.html">Dama</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="relojes-temporada.html">Por Temporada</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success btn-search" type="submit">Search</button>
-                    </form>
-                </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light name-logo" href="index.html">
+              <img src="./img/logo.png" alt="Logo AURUM" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="masvendidos.html">+ Vendidos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#catalogo">Catálogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Categorías
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="relojes-caballero.html">Caballero</a></li>
+                    <li><a class="dropdown-item" href="relojes-dama.html">Dama</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="relojes-temporada.html">Por Temporada</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success btn-search" type="submit">Search</button>
+              </form>
+              <ul class="d-flex flex-row  navbar-nav my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="index.html">
+                    <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M6 2a1 1 0 0 1 .993 .883l.007 .117v1.068l13.071 .935a1 1 0 0 1 .929 1.024l-.01 .114l-1 7a1 1 0 0 1 -.877 .853l-.113 .006h-12v2h10a3 3 0 1 1 -2.995 3.176l-.005 -.176l.005 -.176c.017 -.288 .074 -.564 .166 -.824h-5.342a3 3 0 1 1 -5.824 1.176l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-12.17h-1a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 .883 -.993l.117 -.007h2zm0 16a1 1 0 1 0 0 2a1 1 0 0 0 0 -2zm11 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2z" stroke-width="0" fill="currentColor"></path>
+                   </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="masvendidos.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                      <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"></path>
+                   </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
     </header>
     <!-- Main -->
