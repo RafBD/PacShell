@@ -213,3 +213,27 @@ main {
 .campos-obligatorios {
     font-size: 14px;
 }
+
+.btn-restablecer-contraseña {
+    padding: .7rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.font-miAurum{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.negro {
+    color: black;
+    text-decoration: underline;
+    transition: all .2s ease-in-out;
+}
+
+.negro:hover {
+    color: #197149;
+}
+
+.title-politicas {
+    color: #198754;
+    font-size: 2rem;
+}
