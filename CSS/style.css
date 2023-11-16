@@ -81,9 +81,9 @@ ul {
     background: #1d4633;
 }
 
-.carousel-inner {
+/* .carousel-inner {
     margin-top: 3rem;
-}
+} */
 
 main {
     display: grid;
@@ -236,4 +236,13 @@ main {
 .title-politicas {
     color: #198754;
     font-size: 2rem;
+}
+
+.form-check-input {
+    appearance: none;
+}
+
+.form-check-input:checked {
+    background-color: #CDA434;
+    border-color: #CDA434;
 }
